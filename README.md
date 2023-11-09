@@ -14,8 +14,7 @@ Não desformates o documento.
 - Para cada componente, descreve o seu papel e função no processador.
 - Considera componentes como unidade lógica aritmética (ALU), unidade de controlo (UC), registos internos, memória e interfaces de entrada/saída (I/O).
 
-P1 - Resposta:
-Unidade de Controle-Responsável por controlar as operações de busca, decodificação e execução de instruções.
+P1 - Resposta:Unidade de Controle-Responsável por controlar as operações de busca, decodificação e execução de instruções.
 Unidade Lógica e Aritmética (ULA): Executa operações lógicas e aritméticas, como adição, subtração e comparação.
 Registradores: Armazenam dados temporários e endereços de memória para operações rápidas. Incluem registradores de dados, endereços e registradores de controle.
 Cache: Memória de acesso rápido usada para armazenar dados frequentemente acessados, reduzindo o tempo de acesso à memória principal.
@@ -25,6 +24,7 @@ Barramentos: Meios de comunicação que permitem a transferência de dados entre
 Memória Cache: Armazena temporariamente dados frequentemente usados para aumentar a velocidade de acesso à memória principal.
 Memória de Acesso Aleatório (RAM): Armazena dados temporariamente para o processador acessar rapidamente.
 Memória de Somente Leitura (ROM): Contém instruções permanentes que não são modificadas durante a operação.
+
 
 ### P2. Compara as arquiteturas de Von Neumann e Harvard em termos de características e principais diferenças
 
@@ -69,44 +69,5 @@ Fase de Execução:
 O que envolve: Com base na instrução e nos operandos identificados na fase de descodificação, a CPU executa a operação. Isso pode envolver cálculos aritméticos, transferência de dados, controle de fluxo, entre outros.
 Importância: É aqui que a ação real ocorre. A CPU manipula dados de acordo com a instrução, realiza cálculos ou transfere informações entre diferentes partes do sistema. A execução é fundamental para o funcionamento do programa.
 
-+--------------------------------------+
-|           FASE DE BUSCA               |
-|                                      |
-|   +-----------------------------+    |
-|   |      Memória Principal     |    |
-|   |                             |    |
-|   |    +-------------------+    |    |
-|   |    | Instrução Atual   |    |    |
-|   |    +-------------------+    |    |
-|   +-----------------------------+    |
-|                                      |
-+--------------------------------------+
-                   |
-                   v
-+--------------------------------------+
-|      FASE DE DESCODIFICAÇÃO           |
-|                                      |
-|   +-----------------------------+    |
-|   |      Unidade de Controle  |    |
-|   |                             |    |
-|   |    +-------------------+    |    |
-|   |    | Código de Operação|    |    |
-|   |    +-------------------+    |    |
-|   +-----------------------------+    |
-|                                      |
-+--------------------------------------+
-                   |
-                   v
-+--------------------------------------+
-|         FASE DE EXECUÇÃO             |
-|                                      |
-|   +-----------------------------+    |
-|   |     Unidade de Execução   |    |
-|   |                             |    |
-|   |    +-------------------+    |    |
-|   |    |  Execução da Instrução |    |
-|   |    +-------------------+    |    |
-|   +-----------------------------+    |
-|                                      |
-+--------------------------------------+
+
 
