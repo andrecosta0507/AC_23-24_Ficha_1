@@ -38,13 +38,14 @@ P1 - Resposta:
 - Fornece exemplos de sistemas de computação que usam cada arquitetura.
 
 P2 - Resposta:
-            Organização da Memória:
-                Von Neumann: Memória unificada para dados e instruções.
-            Harvard: Memórias separadas para dados e instruções.
-        
-    Busca de Instruções:
-    Von Neumann: A CPU busca instruções e dados usando o mesmo barramento.
-    Harvard: Instruções e dados são acessados por barramentos distintos, permitindo recuperação simultânea.
+
+                    Organização da Memória:
+                        Von Neumann: Memória unificada para dados e instruções.
+                    Harvard: Memórias separadas para dados e instruções.
+
+        Busca de Instruções:
+        Von Neumann: A CPU busca instruções e dados usando o mesmo barramento.
+        Harvard: Instruções e dados são acessados por barramentos distintos, permitindo recuperação simultânea.
     
     Separação de Dados:
     Von Neumann: Instruções e dados compartilham a mesma memória.
@@ -72,7 +73,35 @@ P3 - Resposta:
     
     O que envolve: Com base na instrução e nos operandos identificados na fase de descodificação, a CPU executa a operação. Isso pode envolver cálculos aritméticos, transferência de dados, controle de fluxo, entre outros.
     Importância: É aqui que a ação real ocorre. A CPU manipula dados de acordo com a instrução, realiza cálculos ou transfere informações entre diferentes partes do sistema. A execução é fundamental para o funcionamento do programa.
-    ![image](https://github.com/andrecosta0507/AC_23-24_Ficha_1/assets/49683873/48841f4d-8195-49f5-8ec1-cc49042a86dd)
+    +--------------------------------------+
+    |          FASE DE BUSCA               |
+    |   Memória Principal                  |
+    |   +-----------------------------+    |
+    |   | Instrução Atual            |    |
+    |   +-----------------------------+    |
+    +--------------------------------------+
+                       |
+                       v
+    +--------------------------------------+
+    |      FASE DE DESCODIFICAÇÃO           |
+    |   Unidade de Controle                |
+    |   +-----------------------------+    |
+    |   | Código de Operação         |    |
+    |   +-----------------------------+    |
+    +--------------------------------------+
+                       |
+                       v
+    +--------------------------------------+
+    |         FASE DE EXECUÇÃO             |
+    |   Unidade de Execução               |
+    |   +-----------------------------+    |
+    |   | Execução da Instrução      |    |
+    |   +-----------------------------+    |
+    +--------------------------------------+
+
+
+
+
 
 
 
